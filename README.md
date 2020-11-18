@@ -17,7 +17,7 @@ Progressions
 Who Am I?
 
 ### 10 Word Summary
-Creating an online personality using a website and also HTML
+Creating an online personality and a description of myself using a website
 
 ### Date Started
 20201118 | November 18, 2020
