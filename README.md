@@ -39,4 +39,8 @@ I plan on applying for Waterloo for my undergraduate. However, if I don’t make
 I want to study in computer sciences to hopefully become a software engineer or to work in cybersecurity
 or to work on websites. I am also interested in physiotherapy.
 
+### Required Information
+- Nationality: Canadian
+- Ethnicity: Han Chinese
+
 ---
