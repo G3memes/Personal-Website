@@ -11,6 +11,7 @@ Progressions
 - Text Data, <a href="">Click Here</a>
 
 ---
+
 ## Text Data
 
 ### Title for the Project
@@ -34,5 +35,8 @@ I love playing video games as well as reading. I also play badminton and am curr
 at The Derrick Club. I am a pretty relaxed guy and I always love a good joke!
 
 ### 50-word Career Description
+I plan on applying for Waterloo for my undergraduate. However, if I don’t make it I will go to the U of A.
+I want to study in computer sciences to hopefully become a software engineer or to work in cybersecurity
+or to work on websites. I am also interested in physiotherapy.
 
 ---
