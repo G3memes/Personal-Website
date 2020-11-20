@@ -44,46 +44,44 @@ or to work on websites. I am also interested in physiotherapy.
 - __Ethnicity:__ Han Chinese
 - __Country:__ Canada
 - __Language:__ Chinese
- - Speak English in school, speak Chinese at home
+  - Speak English in school, speak Chinese at home
 - __Birthplace:__ Windsor, Ontario, Canada
 - __Full Name:__ 邱家麟, Qiu JiaLin (Last name, First name)
-- __Culture:__ Chinese
- - __Customs:__
-  - Red Pockets
-  - Eating rice every meal
-  - Spring Festival
+- __Culture:__
+  - __Customs:__
+   - Red Pockets
+   - Spring Festival
 
 ### Optional Information
 - __Hobbies__:
- - Reading history books
- - Playing video games
-  - League of Legends
- - Listening to music
- - Playing piano
- - Fishing
+  - Reading history books
+  - Playing video games
+    - League of Legends
+  - Listening to music
+  - Playing piano
+  - Fishing
 - __Sports:__
- - Badminton
- - Volleyball
- - Swimming
+  - Badminton
+  - Volleyball
+  - Swimming
 - __Places I have Been To:__
- - San Diego, California
- - Palm Springs, California
- - Sichuan, China
- - Philadelphia, Pennsylvania
- - Honolulu, Hawaii
- - Cancun, Mexico
+  - San Diego, California
+  - Palm Springs, California
+  - Sichuan, China
+  - Philadelphia, Pennsylvania
+  - Honolulu, Hawaii
+  - Cancun, Mexico
 
 ### Life during Online Classes
 - Daily Routine:
- - Waking up, eating breakfast
- - Log onto computer for morning online class
- - Eat lunch
- - Attend afternoon online class
- - Finish Homework
- - Eat dinner
- - Free time
-  - Talking to friends via Discord after school
-  - Reading
+  - Waking up, eating breakfast
+  - Log onto computer for morning online class
+  - Eat lunch
+  - Attend afternoon online class
+  - Eat dinner
+  - Free time
+    - Talking to friends via Discord after school
+    - Reading
 
 
 
