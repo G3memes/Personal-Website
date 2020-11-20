@@ -3,7 +3,7 @@ First HTML with Inline CSS Website Project
 
 **CAUTION** UNDERCONSTRUCTION
 
-Live Website URL: https://github.com/G3memes/Who-Am-I
+Live Website URL: https://g3memes.github.io/Who-Am-I/
 
 Progressions
 - Project Folder Structure
