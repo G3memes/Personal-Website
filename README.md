@@ -42,5 +42,11 @@ or to work on websites. I am also interested in physiotherapy.
 ### Required Information
 - Nationality: Canadian
 - Ethnicity: Han Chinese
+- Country: Canada
+- Language: Chinese
+- Birthplace: Windsor, Ontario, Canada
+- Full Name: 家麟 邱 (JiaLin Qiu)
+- Culture: Chinese
+- Customs:
 
 ---
