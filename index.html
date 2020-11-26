@@ -24,28 +24,82 @@
 
     <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
     <!-- Already specified in the charset above-->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .header {
+        padding: 2px;
+        padding-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        text-decoration: underline;
+        font-family: "Arial";
+      }
+
+      .menu {
+        width: 25%;
+        float:left;
+        padding: 15px;
+      }
+
+      .main {
+        width: 50%;
+        float: left;
+        padding: 15px;
+      }
+
+      .nav {
+        width: 50%;
+        padding-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+
+      .footer {
+        border: 1px solid red;
+        padding: 15px;
+      }
+      div {border: solid red;}
+
+      #red{border: thin dotted red;}
+      #blue{border: solid blue; border-width:5px;}
+    </style>
 
   </head>
-  <body>
-    <header><h1>Main Page</h1></header>
-    <nav><h1>Navigation</h1></nav>
-    <aside><p>This is the aside space.</p></aside>
-      <section>
-        <h3>Section 1</h3>
-        <article>
-          <p>This is article 1 in section 1.</p>
-        </article>
-        <article>
-          <p>This is article 2 in section 1.</p>
-        </article>
-      </section>
-      <section>
-        <h3>Section 2</h3>
-        <article>
-          <p>This is article 1 in section 2.</p>
-        </article>
-        <article>
-          <p>This is article 2 in section 2.</p>
-        </article>
-      </section>
+  <body id="blue">
+    <div class="header">
+        <h1 style="font-size:3vw">Main Page</h1>
+    </div>
+    <div class="nav">
+      <nav><p style="font-size:2.5vw" id="blue">Navigation:
+          <a href="childPages\sports.html" target="_blank"><span style="font-size:2.5vw">Sports</a>
+          <a href="childPages\customs.html" target="_blank"><span style="font-size:2.5vw">Customs</a>
+          </p>
+      </nav>
+
+    </div>
+    <div >
+        <section>
+          <h2 style="font-size:2.3vw">Jialin Qiu</h2>
+          <article>
+            <p>This is article 1 in section 1.</p>
+          </article>
+          <article>
+            <p>This is article 2 in section 1.</p>
+          </article>
+        </section>
+    </div>
+        <section>
+          <h3>Section 2</h3>
+          <article>
+            <p>This is article 1 in section 2.</p>
+          </article>
+          <article>
+            <p>This is article 2 in section 2.</p>
+          </article>
+        </section>
   </body>
