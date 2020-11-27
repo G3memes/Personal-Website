@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <!-- Used by keyboard-->
+    <meta charset="utf-8">
+
+    <title>Who Am I</title>
+
+    <!-- Used by Browser or Google Search-->
+    <meta name="author" content="Jialin Qiu">
+    <meta name="description" content="Creating an online personality and a description of myself using a website">
+    <meta name="keywords" content="Learning HTML, Fun, fun, testing">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
+
+    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
+
+    <!-- Other meta attributes to be aware of -->
+
+    <!-- meta http-equiv="refresh" content="30"-->
+    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
+    <!-- Use this when refreshes are needed -->
+
+    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
+    <!-- Already specified in the charset above-->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .header {
+        padding: 0px;
+        padding-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        text-decoration: underline;
+        font-family: "Arial";
+      }
+
+      .menu {
+        width: 25%;
+        float:left;
+        padding: 15px;
+      }
+
+      .main {
+        width: 100%;
+        text-align: center;
+      }
+
+      nav {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: #F5E7CB;
+        border-radius: 6px;
+        padding: 8px;
+      }
+
+      .footer {
+        border: 1px solid red;
+        padding: 15px;
+      }
+      #button{
+        margin-left:15px;
+        margin-right:15px;
+        color: black;
+        text-decoration: none;
+        background-color: white;
+      }
+      #red{border: thin dotted red;}
+      #brown{border: solid #E1BD90; border-width:5px;}
+      a:hover {
+        text-decoration:none;
+      }
+    </style>
+  </head>
+    <body style="background-color: #DBD7F5">
+      <div class="header">
+          <h1 style="font-size:2.3vw">Main Page</h1>
+      </div>
+        <nav style="font-size:2vw" id="brown">Navigation:
+            <a href="../index.html"><span style="font-size:2vw" id="button">Main Page</span></a>
+            <a href="sports.html"><span style="font-size:2vw" id="button">Sports</span></a>
+            <a href="customs.html"><span style="font-size:2vw" id="button">Customs</span></a>
+            <a href="hobbies.html"><span style="font-size:2vw" id="button">Hobbies</span></a>
+            <a href="careerintrests.html"><span style="font-size:2vw" id="button">Career Intrests</span></a>
+        </nav>
+
+
+      <div class="main">
+          <section>
+            <h2 style="font-size:2.3vw">Jialin Qiu</h2>
+            <article>
+              <p>This is article 1 in section 1.</p>
+            </article>
+            <article>
+              <p>This is article 2 in section 1.</p>
+            </article>
+          </section>
+        </div>
+    </body>

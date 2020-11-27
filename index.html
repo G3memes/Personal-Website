@@ -50,37 +50,47 @@
         text-align: center;
       }
 
-      .nav {
-        width: 60%;
-        padding-top: 0px;
+      nav {
+        width: 65%;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        background-color: #F5E7CB;
+        border-radius: 6px;
+        padding: 8px;
       }
 
       .footer {
         border: 1px solid red;
         padding: 15px;
       }
-      div {border: solid red;}
-
+      #button{
+        margin-left:15px;
+        margin-right:15px;
+        color: black;
+        text-decoration: none;
+        background-color: white;
+      }
       #red{border: thin dotted red;}
-      #blue{border: solid blue; border-width:5px;}
+      #brown{border: solid #E1BD90; border-width:5px;}
+      a:hover {
+        text-decoration:none;
+      }
     </style>
 
   </head>
-  <body id="blue">
+  <body style="background-color: #DBD7F5">
     <div class="header">
-        <h1 style="font-size:2.5vw">Main Page</h1>
+        <h1 style="font-size:2.3vw">Main Page</h1>
     </div>
-    <div class="nav">
-      <nav><p style="font-size:2vw" id="blue">Navigation:
-          <a href="childPages\sports.html" target="_blank"><span style="font-size:2vw">Sports</a>
-          <a href="childPages\customs.html" target="_blank"><span style="font-size:2vw">Customs</a>
-          </p>
+      <nav style="font-size:2vw" id="brown">Navigation:
+          <a href="index.html"><span style="font-size:2vw" id="button">Main Page</span></a>
+          <a href="childPages\sports.html"><span style="font-size:2vw" id="button">Sports</span></a>
+          <a href="childPages\customs.html"><span style="font-size:2vw" id="button">Customs</span></a>
+          <a href="childPages\hobbies.html"><span style="font-size:2vw" id="button">Hobbies</span></a>
+          <a href="childPages\careerintrests.html"><span style="font-size:2vw" id="button">Career Intrests</span></a>
       </nav>
 
-    </div>
     <div class="main">
         <section>
           <h2 style="font-size:2.3vw">Jialin Qiu</h2>
