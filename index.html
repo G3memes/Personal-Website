@@ -24,82 +24,54 @@
 
     <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
     <!-- Already specified in the charset above-->
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-
-      .header {
-        padding: 0px;
-        padding-bottom: 0px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        text-decoration: underline;
-        font-family: "Arial";
-      }
-
-      .menu {
-        width: 25%;
-        float:left;
-        padding: 15px;
-      }
-
-      .main {
-        width: 100%;
-        text-align: center;
-      }
-
-      nav {
-        width: 65%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        background-color: #F5E7CB;
-        border-radius: 6px;
-        padding: 8px;
-      }
-
-      .footer {
-        border: 1px solid red;
-        padding: 15px;
-      }
-      #button{
-        margin-left:15px;
-        margin-right:15px;
-        color: black;
-        text-decoration: none;
-        background-color: white;
-      }
-      #red{border: thin dotted red;}
-      #brown{border: solid #E1BD90; border-width:5px;}
-      a:hover {
-        text-decoration:none;
-      }
-    </style>
-
+    <link rel="stylesheet" href="Website.css">
   </head>
-  <body style="background-color: #DBD7F5">
+  <body style="background-color: #DBD7F5"><span style="font-family: Arial;">
     <div class="header">
         <h1 style="font-size:2.3vw">Main Page</h1>
     </div>
-      <nav style="font-size:2vw" id="brown">Navigation:
-          <a href="index.html"><span style="font-size:2vw" id="button">Main Page</span></a>
-          <a href="childPages\sports.html"><span style="font-size:2vw" id="button">Sports</span></a>
-          <a href="childPages\customs.html"><span style="font-size:2vw" id="button">Customs</span></a>
-          <a href="childPages\hobbies.html"><span style="font-size:2vw" id="button">Hobbies</span></a>
-          <a href="childPages\careerintrests.html"><span style="font-size:2vw" id="button">Career Intrests</span></a>
+      <nav style="font-size:2vw" id="brown"><b>Navigation:</b>
+          <span style="font-size:2vw" id="button"><span id="pageon">Main Page</span></span>
+          <a href="childPages\sports.html" style="text-decoration: none; font-size:2vw" id="button">Sports</a>
+          <a href="childPages\customs.html" style="text-decoration: none; font-size:2vw" id="button">Customs</a>
+          <a href="childPages\hobbies.html" style="text-decoration: none; font-size:2vw" id="button">Hobbies</a>
+          <a href="childPages\careerintrests.html" style="text-decoration: none; font-size:2vw" id="button">Career Intrests</a>
       </nav>
+
+    <aside><br><br><br>
+      <!-- Nationality -->
+      <!-- Canadian Flag -->
+      <picture>
+        <source media="(min-width:650px)" srcset="Images\ca-flag.jpg">
+          <source media="(min-width:450px)" srcset="Images\ca-flag.jpg">
+        <img src="Images\ca-flag.jpg" alt="Canadian Flag" style="width: 50%;">
+      </picture>
+      <p id="extrainfo"><b>Nationality:</b> Canadian</p>
+      <!-- Ethnicity -->
+      <!-- Chinese Flag -->
+      <picture>
+        <source media="(min-width:650px)" srcset="Images\chinese-flag.jpg">
+          <source media="(min-width:450px)" srcset="Images\chinese-flag.jpg">
+        <img src="Images\chinese-flag.jpg" alt="Chinese Flag" style="width: 50%;">
+      </picture>
+      <p id="extrainfo"><b>Ethnicity:</b> Han Chinese</p>
+    </aside>
 
     <div class="main">
         <section>
-          <h2 style="font-size:2.3vw">Jialin Qiu</h2>
-          <article>
-            <p>This is article 1 in section 1.</p>
+          <h2 id="midposition">Jialin Qiu</h2>
+          <picture style="margin-right:30%;">
+            <source media="(min-width:650px)" srcset="Images\Selfie.jpg">
+              <source media="(min-width:450px)" srcset="Images\Selfie.jpg">
+            <img src="Images\Selfie.jpg" alt="Selfie" style="width: 10%;">
+          </picture>
+          <article style="font-size:1vw; width: 30%; margin-left: auto; margin-right: auto; border: solid red">
+            <p><b>Description:</b> My name is Jialin Qiu. I was born in Windsor, Ontario and am currently living in Alberta. I love playing video games as well as reading. I also play badminton, volleyball and occasionally swim for fun. I am a pretty relaxed guy and I always love a good joke!
+            </p>
           </article>
           <article>
             <p>This is article 2 in section 1.</p>
           </article>
         </section>
       </div>
-  </body>
+  </span></body>
