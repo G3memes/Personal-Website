@@ -8,6 +8,7 @@ aside {
   margin-top:2.5%;
   border: solid red;
   padding-left: 2.5%;
+  font-size:1vw;
 }
 
 nav {
@@ -68,19 +69,24 @@ footer {
 
 .rightside {
   float: right;
-  text-align: center;
+  text-align: left;
   border: solid red;
   width:33.33333%;
   margin-top:2.5%;
+  font-size: 1.2vw;
+  padding-left: 2.5%;
 }
+
 #button {
   margin-left:0.5%;
   margin-right:0.5%;
   color: black;
 }
+
 #red {
   border: thin dotted red;
 }
+
 #brown {
   border: solid #E1BD90; border-width:5px;
 }
@@ -98,8 +104,24 @@ footer {
   font-size:2.3vw;
 }
 
-#Ontario {
+#midtext {
+  text-align:left;
+  font-size: 1.2vw;
+}
+
+#midpic {
   width: 100%;
   text-align: center;
   border: solid red;
+}
+
+#resetbackground {
+  background-color: inherit;
+}
+
+#threebodytext {
+font-size: 1.2vw;
+line-height:50px;
+padding-left: 30px;
+padding-right: 30px;
 }
