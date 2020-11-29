@@ -3,9 +3,11 @@
 }
 
 aside {
-  width: 30%;
+  width: 33.33333%;
   float: left;
   margin-top:2.5%;
+  border: solid red;
+  padding-left: 2.5%;
 }
 
 nav {
@@ -26,7 +28,7 @@ a:hover {
   padding-bottom:8px;
 }
 
-body{
+body {
   font-family: "Arial";
 }
 
@@ -37,6 +39,10 @@ article {
   margin-right: auto;
 }
 
+blockquote {
+  margin-left: 0;
+}
+
 .header {
   margin-left: auto;
   margin-right: auto;
@@ -45,18 +51,12 @@ article {
   font-family: "Arial";
 }
 
-.menu {
-  width: 25%;
-  float:left;
-  padding: 15px;
-}
-
 .main {
-  width: 33%;
+  width: 33.33333%;
   text-align: center;
   border: solid red;
-  margin-left:3.5%;
   float: left;
+  margin-top: 2.5%;
 }
 
 .footer {
@@ -68,22 +68,22 @@ article {
   float: right;
   text-align: center;
   border: solid red;
-  width:33%;
+  width:33.33333%;
   margin-top:2.5%;
 }
-#button{
+#button {
   margin-left:0.5%;
   margin-right:0.5%;
   color: black;
 }
-#red{
+#red {
   border: thin dotted red;
 }
-#brown{
+#brown {
   border: solid #E1BD90; border-width:5px;
 }
 
-#pageon{
+#pageon {
   background-color: #DED3AD;
   padding: 6px;
   border-radius: 6px;
@@ -91,17 +91,12 @@ article {
   margin-left: auto;
   margin-right: auto;
 }
-#midposition{
+
+#midposition {
   font-size:2.3vw;
 }
-#extrainfo{
-  font-size:0.9vw;
-  padding-left: 17%;
-}
-#picture{
-  padding-left: 17%;
-}
-#Ontario{
+
+#Ontario {
   width: 100%;
   text-align: center;
   border: solid red;
