@@ -43,6 +43,13 @@ blockquote {
   margin-left: 0;
 }
 
+footer {
+  border: solid red;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
 .header {
   margin-left: auto;
   margin-right: auto;
@@ -57,11 +64,6 @@ blockquote {
   border: solid red;
   float: left;
   margin-top: 2.5%;
-}
-
-.footer {
-  border: 1px solid red;
-  padding: 15px;
 }
 
 .rightside {
