@@ -2,6 +2,41 @@
   box-sizing: border-box;
 }
 
+aside {
+  width: 30%;
+  float: left;
+  margin-top:2.5%;
+}
+
+nav {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #F5E7CB;
+  border-radius: 6px;
+  padding: 8px;
+  border: solid red;
+}
+
+a:hover {
+  text-decoration:none;
+  background-color: #DED3AD;
+  padding-top:8px;
+  padding-bottom:8px;
+}
+
+body{
+  font-family: "Arial";
+}
+
+article {
+  font-size:1vw;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
   margin-left: auto;
   margin-right: auto;
@@ -17,28 +52,24 @@
 }
 
 .main {
-  width: 100%;
+  width: 33%;
   text-align: center;
-}
-aside {
-  width: 30%;
-  float: left;
-}
-
-nav {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-color: #F5E7CB;
-  border-radius: 6px;
-  padding: 8px;
   border: solid red;
+  margin-left:3.5%;
+  float: left;
 }
 
 .footer {
   border: 1px solid red;
   padding: 15px;
+}
+
+.rightside {
+  float: right;
+  text-align: center;
+  border: solid red;
+  width:33%;
+  margin-top:2.5%;
 }
 #button{
   margin-left:0.5%;
@@ -51,15 +82,7 @@ nav {
 #brown{
   border: solid #E1BD90; border-width:5px;
 }
-body{
-  font-family: "Arial";
-}
-a:hover {
-  text-decoration:none;
-  background-color: #DED3AD;
-  padding-top:8px;
-  padding-bottom:8px;
-}
+
 #pageon{
   background-color: #DED3AD;
   padding: 6px;
@@ -70,7 +93,6 @@ a:hover {
 }
 #midposition{
   font-size:2.3vw;
-  margin-right: 30%;
 }
 #extrainfo{
   font-size:0.9vw;
@@ -79,9 +101,8 @@ a:hover {
 #picture{
   padding-left: 17%;
 }
-article {
-  font-size:1vw;
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
+#Ontario{
+  width: 100%;
+  text-align: center;
+  border: solid red;
 }
