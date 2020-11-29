@@ -1,11 +1,8 @@
-
 * {
   box-sizing: border-box;
 }
 
 .header {
-  padding: 0px;
-  padding-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -25,7 +22,6 @@
 }
 aside {
   width: 30%;
-  border: solid black;
   float: left;
 }
 
@@ -37,6 +33,7 @@ nav {
   background-color: #F5E7CB;
   border-radius: 6px;
   padding: 8px;
+  border: solid red;
 }
 
 .footer {
@@ -44,30 +41,47 @@ nav {
   padding: 15px;
 }
 #button{
-  margin-left:15px;
-  margin-right:15px;
+  margin-left:0.5%;
+  margin-right:0.5%;
   color: black;
 }
-#red{border: thin dotted red;}
-#brown{border: solid #E1BD90; border-width:5px;}
+#red{
+  border: thin dotted red;
+}
+#brown{
+  border: solid #E1BD90; border-width:5px;
+}
 body{
   font-family: "Arial";
 }
 a:hover {
   text-decoration:none;
   background-color: #DED3AD;
-  padding: 8px;
+  padding-top:8px;
+  padding-bottom:8px;
 }
 #pageon{
   background-color: #DED3AD;
   padding: 6px;
   border-radius: 6px;
   border: solid black;
+  margin-left: auto;
+  margin-right: auto;
 }
 #midposition{
   font-size:2.3vw;
   margin-right: 30%;
 }
 #extrainfo{
-  font-size:1.5vw;
+  font-size:0.9vw;
+  padding-left: 17%;
+}
+#picture{
+  padding-left: 17%;
+}
+article {
+  font-size:1vw;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
 }
