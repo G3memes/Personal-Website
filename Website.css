@@ -73,7 +73,7 @@ footer {
   border: solid red;
   width:33.33333%;
   margin-top:2.5%;
-  font-size: 1.2vw;
+
   padding-left: 2.5%;
 }
 
@@ -124,4 +124,8 @@ font-size: 1.2vw;
 line-height:50px;
 padding-left: 30px;
 padding-right: 30px;
+}
+
+#mainright {
+  font-size: 1.2vw;
 }
