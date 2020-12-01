@@ -61,7 +61,6 @@ footer {
 
 .main {
   width: 33.33333%;
-  text-align: center;
   border: solid red;
   float: left;
   margin-top: 2.5%;
@@ -73,7 +72,6 @@ footer {
   border: solid red;
   width:33.33333%;
   margin-top:2.5%;
-
   padding-left: 2.5%;
 }
 
@@ -81,10 +79,6 @@ footer {
   margin-left:0.5%;
   margin-right:0.5%;
   color: black;
-}
-
-#red {
-  border: thin dotted red;
 }
 
 #brown {
@@ -100,13 +94,10 @@ footer {
   margin-right: auto;
 }
 
-#midposition {
-  font-size:2.3vw;
-}
-
 #midtext {
   text-align:left;
   font-size: 1.2vw;
+  line-height:40px;
 }
 
 #midpic {
@@ -128,4 +119,8 @@ padding-right: 30px;
 
 #mainright {
   font-size: 1.2vw;
+}
+
+#mainmiddle{
+  text-align: center;
 }

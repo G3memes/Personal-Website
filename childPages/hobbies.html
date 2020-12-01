@@ -1,39 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
 
-    <!-- Used by keyboard-->
     <meta charset="utf-8">
 
     <title>Who Am I</title>
 
-    <!-- Used by Browser or Google Search-->
     <meta name="author" content="Jialin Qiu">
     <meta name="description" content="Creating an online personality and a description of myself using a website">
     <meta name="keywords" content="Learning HTML, Fun, fun, testing">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
 
-    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
-
-    <!-- Other meta attributes to be aware of -->
-
-    <!-- meta http-equiv="refresh" content="30"-->
-    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
-    <!-- Use this when refreshes are needed -->
-
-    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
-    <!-- Already specified in the charset above-->
+    <!-- CSS Reference Code -->
     <link rel="stylesheet" href="../Website.css">
   </head>
+
   <body style="background-color: #DBD7F5">
 
-    <!-- Title of Webpage -->
+    <!-- **Title of Webpage** -->
     <div class="header">
         <h1 style="font-size:2.3vw">Hobbies</h1>
     </div>
 
-    <!-- Navigation Bar -->
+    <!-- **Navigation Bar** -->
     <nav style="font-size:2vw" id="brown"><b>Navigation:</b>
         <a href="../index.html" style="text-decoration: none; font-size:2vw" id="button">Main Page</a>
         <a href="sports.html" style="text-decoration: none; font-size:2vw" id="button">Sports</a>
@@ -42,24 +32,48 @@
         <a href="moreinfo.html" style="text-decoration: none; font-size:2vw" id="button">More Information</a>
     </nav>
 
-    <!--  -->
+    <!-- **Reading Secion** -->
     <aside>
-      sssasdasd
+      <h1>Reading:</h1>
+      <p id="threebodytext">I read a lot of books both fiction and non-fiction. I especially enjoy reading about history and about World War 1 and World War 2. I also love to read right before bed as it helps me fall asleep!</p>
+      <p id="threebodytext">Some of my favourite reads:</p>
+
+        <!-- Image of Gates of Fire -->
+        <img src="../Images\GateofFire.jpg" alt="Gates of Fire by Steven Pressfield" style="width: 35%; float: left; float: bottom; margin-bottom: 10%;">
+
+        <!-- Image of Second World Book -->
+        <img src="../Images\SecondWorld.jpg" alt="Second World by Jeremey Robinson" style="width: 37.58%; float: right; float:bottom; margin-right:20%;">
+
     </aside>
 
-    <!--  -->
+    <!-- **Music Section** -->
     <div class="main">
-      <h1>Jialin Qiu</h2>
+      <h1 style="padding-left: 19px; padding-right: 30px;">Music:</h1>
       <article>
-        <p>This is article 1 in section 1.</p>
+        <!-- Music Text -->
+        <h3 style="text-align: left; margin-left: 3%;">Songs:</h3>
+        <p id="threebodytext">I love listening to music. My favourite genre is probably pop. I listen to English, Japanese, Korean and Chinese songs as I enjoy their beats even though I can't understand Japanese or Korean.</p>
+        <p id="threebodytext">Below is a youtube playlist that I usually listen to:</p>
+
+          <!-- Youtube Playlist -->
+          <a href="https://www.youtube.com/playlist?list=PLHGCjpDUgpRr6_kKxmlZ42gzbqGh2EiCQ" target="_blank" id="resetbackground" style="margin-left: 10%; font-size: 1.2vw;">My Playlist</a>
       </article>
       <article>
-        <p>This is article 2 in section 1.</p>
+        <!-- Piano Text -->
+        <h3 style="text-align: left; margin-left: 3%;">Piano:</h3>
+        <p id="threebodytext">I enjoy playing piano. I have been taking piano lessons since I was 6 years old, however, I have stopped now. I passed my RCM (Royale Conservatory of Music) level 10 exam in grade 7, but I still play for fun! I enjoy finding piano scores of songs I like online and playing them when I have free time!</p>
       </article>
     </div>
 
-    <!--  -->
+    <!-- **Gaming Section** -->
     <div class="rightside">
+      <h1>Gaming:</h1>
+      <blockquote cite="https://lol.garena.com/game-info/league-of-legends">
+        <p id="threebodytext"> I don't play too many different games but I do play League of Legends. League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements. Two teams of powerful champions, each with a unique design and playstyle, battle head-to-head across multiple battelfields and game modes. I love playing League of Legends with my friends as it is a pretty fun team orientated game.!</p>
+      </blockquote>
+      <!-- Embedded Video of LOL Introduction -->
+      <p id="threebodytext"><i><u>Here is a introduction to League of Legends:</i></u></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8fwwGCr1-po" frameborder="50" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
   </body>

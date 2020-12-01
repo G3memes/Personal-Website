@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
 
-    <!-- Used by keyboard-->
     <meta charset="utf-8">
 
     <title>Who Am I</title>
@@ -12,28 +12,19 @@
     <meta name="description" content="Creating an online personality and a description of myself using a website">
     <meta name="keywords" content="Learning HTML, Fun, fun, testing">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
 
-    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
-
-    <!-- Other meta attributes to be aware of -->
-
-    <!-- meta http-equiv="refresh" content="30"-->
-    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
-    <!-- Use this when refreshes are needed -->
-
-    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
-    <!-- Already specified in the charset above-->
+    <!-- CSS Reference Code -->
     <link rel="stylesheet" href="../Website.css">
   </head>
+
   <body style="background-color: #DBD7F5">
 
-    <!-- Title of Webpage -->
+    <!-- **Title of Webpage** -->
     <div class="header">
         <h1 style="font-size:2.3vw">Sports</h1>
     </div>
 
-    <!-- Navigation Bar -->
+    <!-- **Navigation Bar** -->
     <nav style="font-size:2vw" id="brown"><b>Navigation:</b>
         <a href="../index.html" style="text-decoration: none; font-size:2vw" id="button">Main Page</span></a>
         <span style="font-size:2vw" id="button"><span id="pageon">Sports</span></span>
@@ -42,16 +33,21 @@
         <a href="moreinfo.html" style="text-decoration: none; font-size:2vw" id="button">More Information</a>
     </nav>
 
-    <!-- Badminton Section -->
+    <!-- **Badminton Section** -->
     <aside>
       <h1>Badminton:</h1>
+
+      <!-- Badminton Text -->
       <p id="threebodytext">
         I have been playing badminton competitively for a couple of years already. I train at The Derrick Club. I take part in provincial tournaments every year and I play singles, doubles and mixed doubles. I enjoy playing badminton immensely because I think it is a very fun and competitive sport.
       </p>
+
+      <!-- Link to Picture of Badminton Medals-->
         <a href="badmintonmedals.html"  style="text-decoration: none; font-size:1vw" id="resetbackground">Click here for a picture of my badminton achievements</a>
       <blockquote cite="https://issuu.com/thederrickgolfandwinterclub/docs/fall_guide_2017">
       <!--  Date Accessed: 20201129 -->
 
+      <!-- Derrick Club Picture -->
         <picture>
           <source media="(min-width:650px)" srcset="../Images\Derrick.jpg">
             <source media="(min-width:450px)" srcset="../Images\Derrick.jpg">
@@ -59,6 +55,7 @@
         </picture>
       </blockquote>
 
+      <!-- Picture of Me Playing Badminton -->
       <blockquote cite="https://edmontonjournal.com/sports/local-sports/photo-gallery-badminton-alberta-provincial-badminton-tournament">
       <!--  Date Accessed: 20201129 -->
         <img src="../Images\JialinBadminton.jpg" alt="Jialin Playing Badminton" style="width: 40%; float:right;">
@@ -68,17 +65,28 @@
 
     </aside>
 
-    <!-- Volleyball -->
+    <!-- **Volleyball** -->
     <div class="main">
-      <h1>Volleyball:</h1>
-        <p id="threebodytext">I do not play volleyball competitively, however, I was on the volleyball team in junior high and we won gold every year for 3 consecutive years! I think it is a fun team sport and a great way to exercise!</p>
+      <h1 style="text-align: center;">Volleyball:</h1>
+
+      <!-- Volleyball Text -->
+      <p id="threebodytext">I do not play volleyball competitively, however, I was on the volleyball team in junior high and we won gold every year for 3 consecutive years! I play as a setter and I believe that playing volleyball is a great way to spend time with people.</p>
 
     </div>
 
-    <!-- Swimming -->
+    <!-- **Swimming** -->
     <div class="rightside">
       <h1>Swimming:</h1>
-      <p id="threebodytext">I swim for fun, but I used to swim competitively for the Edmonton Keyano Swim Club. I don't swim as often anymore but I still enjoy it.</p>
+
+      <!-- Swimming Text -->
+      <p id="threebodytext">I swim for fun, but I used to swim competitively for the Edmonton Keyano Swim Club. I don't swim as often anymore but I still enjoy it. My favourite stroke is breaststroke and my least favourite is backstroke.</p>
+
+      <!-- Code for EKSC Logo -->
+      <blockquote cite="https://www.teamunify.com/team/cseksc/page/home">
+      <!-- Date Accessed: 20201130-->
+        <img src="../Images\eksc.png" alt="Edmonton Keyano Swim Club Logo" style="float: right;">
+      </blockquote>
+
     </div>
 
   </body>
