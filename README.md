@@ -1,8 +1,6 @@
 # Who-Am-I
 First HTML with Inline CSS Website Project
 
-**CAUTION** UNDERCONSTRUCTION
-
 Live Website URL: https://g3memes.github.io/Who-Am-I/
 
 Progressions
